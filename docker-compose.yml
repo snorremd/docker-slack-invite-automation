@@ -1,0 +1,8 @@
+slack-invite-automation:
+  image: snorremd/slack-invite-automation:latest
+  ports:
+    - "3000"
+  environment:
+    - COMMUNITY_NAME=
+    - SLACK_URL=
+    - SLACK_TOKEN=
