@@ -1,6 +1,10 @@
 # docker-slack-invite-automation
 Dockerfiles for building a slack-invite-automation image.
 
+slack-invite-automation is a super simple Node.js application authored by
+outsideris and which can be found at:
+[slack-invite-automation github repository](https://github.com/outsideris/slack-invite-automation)
+
 ## Installation from source
 ```bash
 git clone https://github.com/pilsprog/docker-slack-invite-automation.git
@@ -21,8 +25,7 @@ environment:
   - SLACK_TOKEN=<slack api token>
 ```
 You should obviously replace the `<abc>` with their proper values.
-More information can be found in the [slack-invite-automation repo]
-(https://github.com/outsideris/slack-invite-automation)
+More information can be found in the [slack-invite-automation repo](https://github.com/outsideris/slack-invite-automation)
 
 
 ## Bug reports and development
@@ -34,4 +37,4 @@ Submit a [pull request](https://github.com/Snorremd/docker-slack-invite-automati
 if you want to contribute code.
 
 ## License
-The Dockerfile and it's assorted files are licensed under the
+See [LICENSE](https://github.com/Snorremd/docker-slack-invite-automation/blob/master/LICENSE)
