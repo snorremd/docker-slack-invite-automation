@@ -1,5 +1,5 @@
 slack-invite-automation:
-  image: snorremd/slack-invite-automation:latest
+  image: snorremd/docker-slack-invite-automation:latest
   ports:
     - "3000"
   environment:
