@@ -23,3 +23,15 @@ environment:
 You should obviously replace the `<abc>` with their proper values.
 More information can be found in the [slack-invite-automation repo]
 (https://github.com/outsideris/slack-invite-automation)
+
+
+## Bug reports and development
+
+Please create an issue in the [issue tracker](https://github.com/Snorremd/docker-slack-invite-automation/issues)
+if you experience any issues with the Dockerfile or docker-compose.yml config file.
+
+Submit a [pull request](https://github.com/Snorremd/docker-slack-invite-automation/pulls)
+if you want to contribute code.
+
+## License
+The Dockerfile and it's assorted files are licensed under the
